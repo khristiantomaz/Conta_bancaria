@@ -5,7 +5,7 @@ using System;
 
 namespace programa
 {
-    public class Conta
+    public class ContaBancaria
     {
        private int Numero { get; private set; }
        private string Titular { get; set; }
@@ -42,10 +42,6 @@ namespace programa
             + ", saldo: $"
             + Saldo.ToString("F2", CultureInfo.InvariantCulture);
         }
-
-
-
-
 
 
     }
